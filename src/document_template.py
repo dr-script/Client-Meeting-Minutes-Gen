@@ -45,9 +45,9 @@ def document():
     attendees = new_document.add_paragraph(text="Attendees:", style=None) # Attendees section of the document
     attendees.runs[0].bold = True
 
-    attendees_one = new_document.add_paragraph(text='Jerry Graham (Adviser)', style=None)
+    attendees_one = new_document.add_paragraph(text='****** ********* (Adviser)', style=None)
 
-    attendees_two = new_document.add_paragraph(text='Justin Kendter (Assistant)', style=None)
+    attendees_two = new_document.add_paragraph(text='******** ******** (Assistant)', style=None)
 
     attendees_three = new_document.add_paragraph(text='{} {} (Client - Husband)'.format(husband, last_name), style=None)
 
@@ -64,7 +64,7 @@ def document():
 
 
     # First Client Information
-    client_1 = new_document.add_paragraph(text='Justin Kendter:', style=None) # Client one information
+    client_1 = new_document.add_paragraph(text='{} {}'.format(husband, last_name), style=None) # Client one information
     client_1.runs[0].bold = True
     client_1_info = new_document.add_paragraph(text='Add Info Here!\n')
     client_1_info.style = 'List Bullet'
