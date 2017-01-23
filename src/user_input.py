@@ -1,0 +1,6 @@
+#file_name = input('File Name: ')
+#meeting_start = input('Meeting Start Time: ')
+#meeting_end = input('Meeting End Time: ')
+husband = input('First Client\'s First Name: ')
+spouse = input('Spouse First Name(Type None if None): ')
+last_name = input('Last Name: ')
